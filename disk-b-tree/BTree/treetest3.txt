@@ -1,0 +1,52 @@
+# create tree
+c
+
+# insert 15 items 
+i 122
+i 125
+i 245
+i 372
+i 418
+i 440
+i 474
+i 491
+i 752
+i 803
+i 853
+i 934
+i 957
+i 968
+i 986
+
+# Show tree structure
+S
+
+# delete item 968 from a leaf and show result
+d 968
+S
+
+# delete item 957 which causes a merge: case 3b
+d 957
+S
+
+# delete item 474 - causes a right borrow: case 3a
+d 474
+S
+
+# delete internal item 803 - replaced by successor: case 2b
+d 803
+S
+
+# delete internal item 440 - causes a merge: case 2c
+d 440
+S
+
+# delete internal item 853 - replaced by predecessor: case 2a
+d 853
+S
+
+# delete item 934 - causes a left borrow: case 3a
+d 934
+S
+
+# end of test

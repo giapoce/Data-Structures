@@ -1,0 +1,100 @@
+# create table
+c
+
+# insert 50 items
+i 122
+i 245
+i 491
+i 474
+i 440
+i 372
+i 236
+i 473
+i 438
+i 368
+i 228
+i 457
+i 406
+i 304
+i 100
+i 201
+i 403
+i 298
+i 88
+i 177
+i 355
+i 202
+i 405
+i 302
+i 96
+i 193
+i 387
+i 266
+i 24
+i 49
+i 99
+i 199
+i 399
+i 290
+i 72
+i 145
+i 291
+i 74
+i 149
+i 299
+i 90
+i 181
+i 363
+i 218
+i 437
+i 366
+i 224
+i 449
+i 390
+i 272
+S
+
+# test for successful searches
+s 355
+s 202
+s 405
+s 302
+s 96
+s 193
+s 387
+s 266
+s 24
+s 49
+
+# test for unsuccessful searches
+s 903
+s 182
+s 364
+s 219
+s 439
+s 367
+s 225
+s 441
+s 391
+s 273
+
+# Delete keys 122, 355, 96, 24, 49, 438, 304, 202, 387, 199, 74, 218, 437,
+# 224, 272, then show the tree structure
+d 122
+d 355
+d 96
+d 24
+d 49
+d 438
+d 304
+d 202
+d 387
+d 199
+d 74
+d 218
+d 437
+d 224
+d 272
+S
+
+# end of test
